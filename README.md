@@ -43,14 +43,14 @@ More data would have made it easier to improve the model.
 
 Generative adversarial networks or GAN's consist of two convolutional neural networks a generator and a discriminator which as part of a probabilistic model give us machine-generated results. 
 
-![dcgans](https://user-images.githubusercontent.com/22200326/28600533-e4bbba56-71b2-11e7-87e7-f739fa55190e.png)
+![gans](https://user-images.githubusercontent.com/22200326/28600538-e955e078-71b2-11e7-8690-bfeb8e67998a.png)
 
 The idea underlying this concept is that the generator creates data whilst the discriminator tries to classify it as fake or real data, as both generator and discriminator get better at their tasks,
 more accurate outputs are being given.
 A sigmoid cross entropy function is being used for both losses to drop.
 In my project I designed a GAN trained on celebrities' pictures that eventually learnt to generate faces.
 
-![gans](https://user-images.githubusercontent.com/22200326/28600538-e955e078-71b2-11e7-8690-bfeb8e67998a.png)
+![dcgans](https://user-images.githubusercontent.com/22200326/28600533-e4bbba56-71b2-11e7-87e7-f739fa55190e.png)
 
 GAN's follow an architecture similar to that of RNN's but the convolutions in this case are ordered
 by increasing size.
