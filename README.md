@@ -29,7 +29,7 @@ The cell processes and input and a previously stored value, which comes as an ou
 
 ![lstm](https://user-images.githubusercontent.com/22200326/28600459-601ffbcc-71b2-11e7-8b97-2a5ecfe42a3d.jpg)
 
-It will pass the information as long as it is relevant, using an attention layer that filters out the words whose probability to appear is lowest, in order to keep track of context, here's a sequence to sequence model. 
+It will pass the information as long as it is relevant, using an attention layer that filters out the words whose probability to appear is lowest, in order to keep track of context.
 The generated scripts are still non-sensical, with some days of training and more data it would have given more impressive results, the adjustment of the hyperparameters was enough for the model to offer a smooth drop in the loss function, and RNN's usually run better with three layers but any more than that will result in a plateu effect according to Ian Goodfellow's papers. CNN's on the contrary give room for as many layers as are necessary.
 
 # 4. Language translation 
@@ -48,6 +48,7 @@ Generative adversarial networks or GAN's consist of two convolutional neural net
 The idea underlying this concept is that the generator creates data whilst the discriminator tries to classify it as fake or real data, as both generator and discriminator get better at their tasks,
 more accurate outputs are being given.
 A sigmoid cross entropy function is being used for both losses to drop.
+In my project I designed a GAN trained on celebrities' pictures that eventually learnt to generate faces.
 
 ![gans](https://user-images.githubusercontent.com/22200326/28600538-e955e078-71b2-11e7-8690-bfeb8e67998a.png)
 
