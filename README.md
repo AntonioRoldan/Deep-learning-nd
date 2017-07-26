@@ -18,6 +18,8 @@ It consisted of a classical architecture, defined by two convolutions with dropo
 
 ![08-alexnet-1](https://user-images.githubusercontent.com/22200326/28600444-43e89bbc-71b2-11e7-9152-db7b5cc999fb.png)
 
+Around 2011, a good classification error rate was 25%. In 2012, a Alex Krizhevsky's convolutional neural net achieved 16%; in the next couple of years, error rates fell to a few percent. By 2015, researchers reported that software exceeded human ability at narrow visual tasks.
+
 # 3. TV script generator 
 
 Diving deeper into recurrent neural networks, I designed a sequence to sequence model, with encoders and decoders implemented as LSTM cells, lookup tables and embeddings to boost performance and clean the data, filtering out the noise.
