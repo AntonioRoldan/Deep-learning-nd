@@ -54,7 +54,3 @@ In my project I designed a GAN trained on celebrities' pictures that eventually 
 
 GAN's follow an architecture similar to that of RNN's but the convolutions in this case are ordered
 by increasing size.
-
-![gans](https://user-images.githubusercontent.com/22200326/28600538-e955e078-71b2-11e7-8690-bfeb8e67998a.png)
-
-
