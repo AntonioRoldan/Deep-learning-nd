@@ -24,7 +24,7 @@ Around 2011, a good classification error rate was 25%. In 2012, a Alex Krizhevsk
 
 Diving deeper into recurrent neural networks, I designed a sequence to sequence model, with encoders and decoders implemented as LSTM cells, lookup tables and embeddings to boost performance and clean the data, filtering out the noise.
 
-An LSTM(long-short term memory) cell, allows the model to keep track of previously processed data. 
+LSTM stands for long-short term memory; an LSTM cell allows the model to keep track of previously processed data. 
 The cell processes and input and a previously stored value, which comes as an output to a sigmoid function, if the value given as output is equal to zero the current input won't be processed since they both are being multiplied.
 
 ![lstm](https://user-images.githubusercontent.com/22200326/28600459-601ffbcc-71b2-11e7-8b97-2a5ecfe42a3d.jpg)
