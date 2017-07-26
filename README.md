@@ -58,4 +58,3 @@ by increasing size.
 ![gans](https://user-images.githubusercontent.com/22200326/28600538-e955e078-71b2-11e7-8690-bfeb8e67998a.png)
 
 
-
